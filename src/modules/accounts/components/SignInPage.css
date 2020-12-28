@@ -1,0 +1,40 @@
+.Elevation-container {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Elevation {
+    margin: auto;
+    max-height: 800px;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.Elevation-inner {
+    display: grid;
+    grid-template-columns: 10% auto 10%; 
+}
+
+.Header {
+    grid-column: 2;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.Field {
+    grid-column: 2;
+    margin-bottom: 10px;
+}
+
+.Button {
+    grid-column: 2;
+    max-width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.SignInErrorText {
+    color: red;
+    grid-column: 2;
+}
